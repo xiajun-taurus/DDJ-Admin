@@ -8,6 +8,10 @@
 
 代码里写死，账号密码都是`admin`
 
+**代码位置**
+
+`com.xiajun.admin.controller`包内`UsersController`类第64行
+
 ```java
  if (StringUtils.isBlank(username) || StringUtils.isBlank(password)) {
             return JSONResult.errorMap("用户名和密码不能为空");
